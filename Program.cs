@@ -18,6 +18,7 @@ class Solution
         {
             int N = int.Parse(Console.ReadLine()); // Number of elements which make up the association table.
             int Q = int.Parse(Console.ReadLine()); // Number Q of file names to be analyzed.
+            int Z = int.Parse(Console.ReadLine());
             //This will use the file Ext as the Key and the MIME type as the value.
             Dictionary <string, string> fileExtention = new Dictionary<string, string>();
             List<string> fileName = new List<string>();
